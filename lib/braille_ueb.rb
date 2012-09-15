@@ -1,6 +1,6 @@
-require 'braille_ueb/constants'
-require 'braille_ueb/char'
-require 'braille_ueb/word'
+require 'braille_ueb/constants' unless defined?(Motion::Project::Config)
+require 'braille_ueb/char' unless defined?(Motion::Project::Config)
+require 'braille_ueb/word' unless defined?(Motion::Project::Config)
 
 module BrailleUEB
 
