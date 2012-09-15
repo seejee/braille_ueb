@@ -1,3 +1,5 @@
+require File.expand_path("../lib/braille_ueb/version", __FILE__)
+
 Gem::Specification.new do |s|
   s.name        = 'braille_ueb'
   s.version     = BrailleUEB::VERSION
