@@ -1,5 +1,6 @@
 require 'braille_ueb/constants'
 require 'braille_ueb/char'
+require 'braille_ueb/token'
 require 'braille_ueb/word'
 
 module BrailleUEB
