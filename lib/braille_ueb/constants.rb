@@ -54,6 +54,12 @@ module BrailleUEB
   }
 
   CONTRACTIONS = {
+    'and'   => '⠯',
+    'for'   => '⠿',
+    'of'    => '⠷',
+    'the'   => '⠮',
+    'with'  => '⠾',
+
     'but'   => '⠃',
     'can'   => '⠉',
     'do'    => '⠙',

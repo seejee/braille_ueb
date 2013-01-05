@@ -35,6 +35,10 @@ describe BrailleUEB do
     verify 'like', '⠇'
   end
 
+  it 'should handle special wordsigns' do
+    verify 'and', '⠯'
+  end
+
   it 'should perform contractions that end with punctuation' do
     verify 'like.', '⠇⠲'
   end
