@@ -9,6 +9,10 @@ describe BrailleUEB do
     verify 'c', '⠉'
   end
 
+  it 'should convert the same letter in a row' do
+    verify 'zz', '⠵⠵'
+  end
+
   it 'should convert capital letters' do
     verify 'Z', '⠠⠵'
   end
@@ -37,6 +41,10 @@ describe BrailleUEB do
 
   it 'should handle special wordsigns' do
     verify 'and', '⠯'
+  end
+
+  it 'should handle group signs' do
+    verify 'band', '⠃⠯'
   end
 
   it 'should perform contractions that end with punctuation' do

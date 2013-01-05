@@ -2,7 +2,7 @@ module BrailleUEB
   class Char < String
 
     def upper?
-      c == c.upcase
+      c == c.upcase && !number?
     end
 
     def number?
@@ -15,6 +15,10 @@ module BrailleUEB
 
     def letter?
       ALPHA.has_key?(c.downcase)
+    end
+
+    def alphanumeric?
+      letter? || number?
     end
 
     private
