@@ -54,16 +54,29 @@ module BrailleUEB
   }
 
   CONTRACTIONS = {
-    'like' => '⠇',
-    'but'  => '⠃',
-    'you'  => '⠽',
-    'will' => '⠺',
-    'just' => '⠚',
-    'do'   => '⠙',
-    'that' => '⠞',
-    'so'   => '⠎',
-    'can'  => '⠉',
-    'go'   => '⠛'    
+    'but'   => '⠃',
+    'can'   => '⠉',
+    'do'    => '⠙',
+    'every' => '⠑',
+    'from'  => '⠋',
+    'go'    => '⠛',
+    'have'  => '⠓',
+    'just'  => '⠚',
+    'knowledge' => '⠅',
+    'like'  => '⠇',
+    'more'  => '⠍',
+    'not'   => '⠝',
+    'people' => '⠏',
+    'quite' => '⠟',
+    'rather' => '⠗',
+    'so'    => '⠎',
+    'that'  => '⠞',
+    'us'    => '⠥',
+    'very'  => '⠧',
+    'will'  => '⠺',
+    'it'    => '⠭',
+    'you'   => '⠽',
+    'as'    => '⠵'
   }
 
 end
